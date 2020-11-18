@@ -1,5 +1,8 @@
-//функція getLongestString, котра повертає найдовший рядок з масиву strings.
+let out = document.querySelector(".out");
+let head = document.querySelector(".head");
 
+
+head.innerHTML = 'функція getLongestString, котра повертає найдовший рядок з масиву strings.'
 
 
 function getLongestString(strings) {
@@ -16,5 +19,4 @@ function getLongestString(strings) {
 
     return word;
 }
-
-getLongestString(['One', 'two', 'three', 'four']);
+out.innerHTML = getLongestString(['One', 'two', 'three', 'four']);
